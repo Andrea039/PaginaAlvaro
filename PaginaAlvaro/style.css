@@ -1,0 +1,89 @@
+/* Fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+
+*{
+    font-family: 'Be Vietnam Pro', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/*Estilos Header*/
+a{
+    text-decoration: none;
+    color: black;
+}
+header{
+    border-style: groove;
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+    align-items: center;
+    padding: 20px;
+}
+.logo-inicio{
+    width: 100px;
+    height: 10%;
+}
+header > img{
+    margin-left:5%;
+    width: 5%;
+}
+nav a{
+    font-weight: 70px;
+    padding-right: 10px;
+    color: #242E52;
+}
+a{
+    font-size: 150%;
+}
+
+/*Estilos Banner1*/
+#contenedor-uno{
+    display: flex;
+    flex-wrap: wrap;
+    border-style: groove;
+    justify-content: space-around;
+    margin:10px;
+    
+}
+.banner-izquierda-uno{
+    align-items: center;
+    border-style: groove;
+    width: 49%;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 250%;
+    line-height: 90px;
+    color: #232C50;
+
+}
+.banner-derecha-uno{
+    border-style: groove;
+    width: 50%;
+}
+.parrafo-uno{
+    line-height: 157.1%;
+    margin-right: 55px;
+    margin-top:15px;
+    font-weight: 500;
+    font-size: 60%;
+}
+.boton-dos{
+    background: #F3603B;
+    border-radius: 20px;
+    color: white;
+    width: 25%;
+    height: 10%;
+    margin-top:10px;
+    font-size: 50%;
+}
+
+/* Estilos Banner2: Servicios*/
+
+
+
+
+
